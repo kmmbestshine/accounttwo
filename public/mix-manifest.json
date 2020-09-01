@@ -1,0 +1,20 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/plugins/autosize/jquery.autosize.min.js": "/plugins/autosize/jquery.autosize.min.js",
+    "/plugins/daterangepicker/daterangepicker.css": "/plugins/daterangepicker/daterangepicker.css",
+    "/plugins/daterangepicker/daterangepicker.js": "/plugins/daterangepicker/daterangepicker.js",
+    "/plugins/datatables.net": "/plugins/datatables.net",
+    "/plugins/datatables.net-bs4": "/plugins/datatables.net-bs4",
+    "/plugins/datatables.net-buttons": "/plugins/datatables.net-buttons",
+    "/plugins/datatables.net-buttons-bs4": "/plugins/datatables.net-buttons-bs4",
+    "/plugins/fullcalendar/main.min.js": "/plugins/fullcalendar/main.min.js",
+    "/plugins/fullcalendar/main.min.css": "/plugins/fullcalendar/main.min.css",
+    "/plugins/morris.js.so/morris.css": "/plugins/morris.js.so/morris.css",
+    "/plugins/morris.js.so/morris.js": "/plugins/morris.js.so/morris.js",
+    "/plugins/morris.js.so/morris.min.js": "/plugins/morris.js.so/morris.min.js",
+    "/plugins/raphael/raphael.js": "/plugins/raphael/raphael.js",
+    "/plugins/raphael/raphael.min.js": "/plugins/raphael/raphael.min.js",
+    "/plugins/moment/moment.js": "/plugins/moment/moment.js",
+    "/plugins/moment/moment.min.js": "/plugins/moment/moment.min.js"
+}
