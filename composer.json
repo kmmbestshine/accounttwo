@@ -1,0 +1,85 @@
+{
+    "name": "laravel/laravel",
+    "description": "The Laravel Framework.",
+    "keywords": ["framework", "laravel"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=7.2.5",
+        "askedio/laravel-soft-cascade": "^7.0",
+        "barryvdh/laravel-ide-helper": "^2.7",
+        "doctrine/dbal": "^2.10",
+        "dompdf/dompdf": "^0.8.5",
+        "fideloper/proxy": "^4.4",
+        "graham-campbell/markdown": "^13.0",
+        "ifsnop/mysqldump-php": "2.*",
+        "knplabs/knp-snappy": "^1.2",
+        "laravel/framework": "^7.0",
+        "laravel/tinker": "^2.0",
+        "laravel/helpers": "^1.2",
+        "laravelcollective/html": "^6.1",
+        "mollie/mollie-api-php": "^2.18",
+        "paypal/rest-api-sdk-php": "^1.14",
+        "simshaun/recurr": "^4.0",
+        "sonata-project/exporter": "^2.2",
+        "stripe/stripe-php": "^7.39",
+        "yajra/laravel-datatables-buttons": "4.*"
+    },
+    "require-dev": {
+        "facade/ignition": "^2.0",
+        "nunomaduro/collision": "^4.1",
+        "barryvdh/laravel-debugbar": "^3.3",
+        "fzaninotto/faker": "~1.9",
+        "mockery/mockery": "~1.4",
+        "phpunit/phpunit": "^8.5",
+        "symfony/thanks": "^1.1"
+    },
+    "autoload": {
+        "classmap": [
+            "database/seeds",
+            "database/factories"
+        ],
+        "psr-4": {
+            "BT\\": "app/",
+            "Addons\\": "custom/addons/"
+        },
+        "files": [
+            "app/Constants.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": [
+            ]
+        }
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "@php artisan key:generate --ansi"
+        ],
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover --ansi"
+        ],
+        "post-update-cmd": [
+            "Illuminate\\Foundation\\ComposerScripts::postUpdate",
+            "php artisan ide-helper:generate",
+            "php artisan ide-helper:meta"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
