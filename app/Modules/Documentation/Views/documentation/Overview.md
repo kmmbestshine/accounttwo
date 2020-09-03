@@ -1,7 +1,7 @@
 ## Overview
 ---
 
-**BillingTrack** is a self hosted billing system for  small businesses.
+**BillingTrack** is a self hosted billing system for  Your businesses.
 
 Includes:
 - Client Management
