@@ -44,7 +44,7 @@ class ExpenseCreateController extends Controller
         $record['expense_date'] = DateFormatter::unformat($record['expense_date']);
         $record['amount'] = NumberFormatter::unformat($record['amount']);
         $record['tax'] = ($record['tax']) ? NumberFormatter::unformat($record['tax']) : 0;
-
+        dd($record);
         $expense = Expense::create($record);
 
         $expense->custom->update(request('custom', []));
