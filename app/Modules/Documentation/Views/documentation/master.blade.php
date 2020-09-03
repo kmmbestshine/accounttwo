@@ -17,7 +17,7 @@
             <a class="navbar-brand">
                 <img src="/img/billingtrack_logo.svg" class="brand-image img-circle elevation-3 img-sm"
                      style="opacity: .8">
-                <span class="brand-text "><h3>BillingTrack Documentation</h3></span>
+                <span class="brand-text "><h3>Bestshine BillingTrack Documentation</h3></span>
             </a>
         </div>
     </div>
