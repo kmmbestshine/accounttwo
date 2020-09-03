@@ -26,11 +26,11 @@
     <div class="row">
         <div class="col-lg-3">
             <div class="bs-sidebar">
-                <h4>BillingTrack 5.2.x</h4>
-               {{-- <p style="padding-left: 15px; font-size: 1em;"><a href="Overview">Overview</a>
-                </p>--}}
+                <h4>Bestshine BillingTrack</h4>
+                <p style="padding-left: 15px; font-size: 1em;"><a href="Overview">Overview</a>
+                </p>
 
-                <h4>About BillingTrack</h4>
+               {{-- <h4>About BillingTrack</h4>
                 <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
                     data-accordion="false">
                     <li class="nav-item"><a class="nav-link" href="Requirements">Requirements</a>
@@ -41,12 +41,12 @@
                     </li>
                     <li class="nav-item"><a class="nav-link" href="Release-Notes">Release
                             Notes</a></li>
-                </ul>
+                </ul>--}}
                 <h4>Setup</h4>
                 <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
                     data-accordion="false">
-                    <li class="nav-item"><a class="nav-link" href="Installation">Installation</a></li>
-                    <li class="nav-item"><a class="nav-link" href="Upgrade">Upgrade</a></li>
+                   {{-- <li class="nav-item"><a class="nav-link" href="Installation">Installation</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Upgrade">Upgrade</a></li>--}}
                     <li class="nav-item"><a class="nav-link" href="Task-Scheduler">Task Scheduler</a>
                     </li>
                 </ul>
