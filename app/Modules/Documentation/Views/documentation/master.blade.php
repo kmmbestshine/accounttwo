@@ -27,8 +27,8 @@
         <div class="col-lg-3">
             <div class="bs-sidebar">
                 <h4>BillingTrack 5.2.x</h4>
-                <p style="padding-left: 15px; font-size: 1em;"><a href="Overview">Overview</a>
-                </p>
+               {{-- <p style="padding-left: 15px; font-size: 1em;"><a href="Overview">Overview</a>
+                </p>--}}
 
                 <h4>About BillingTrack</h4>
                 <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
