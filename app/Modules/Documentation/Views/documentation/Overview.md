@@ -24,3 +24,4 @@ Your clients can view and pay their invoices online using the built-in PayPal, S
 Built with Laravel
 
 {{--If you find this product useful, feel free to make a donation: [https://paypal.me/cytecheng](https://paypal.me/cytecheng)--}}
+[//]: <> (This is also a comment.)
