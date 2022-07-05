@@ -9,7 +9,7 @@
         "askedio/laravel-soft-cascade": "^7.0",
         "barryvdh/laravel-ide-helper": "^2.7",
         "doctrine/dbal": "^2.10",
-        "dompdf/dompdf": "^0.8.5",
+        "dompdf/dompdf": "^2.0.0",
         "fideloper/proxy": "^4.4",
         "graham-campbell/markdown": "^13.0",
         "ifsnop/mysqldump-php": "2.*",
